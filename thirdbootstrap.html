@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Third Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!--
+    table 
+    Rows tr
+    Column td
+
+    thead - Headings  th colums  
+    tbody - data 
+
+    Use Case No 1 - Border bottom in bootstrap table 
+    Use Case No 2 - table-striped This will have alternate colors for each row 
+    Use Case No 3 - table-bordered This will have border across rows and columns 
+
+    Additional Classes apply on rows 
+    table-primary -
+    table-success 
+    table-danger 
+    table-info 
+    table-warning 
+    table-active 
+    table-secondary
+    table-light 
+    table-dark
+
+
+
+  -->
+  
+
+</head>
+
+
+<body>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-12 col-md-12 col-sm-12">
+
+          <div>      <h1> Plain Table <h1> </div>
+
+                <table>
+                 
+                    <thead>
+                        <tr>
+                            <th>  Username </th>
+                            <th>  Email </th>
+                            <th>  Phone No </th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td> Aaquib </td>
+                            <td> learning.aaquib@gmail.com </td>
+                            <td> 7259272592 </td>
+                        </tr>
+
+                        <tr>
+                            <td> Aaquib2 </td>
+                            <td> learning.aaquib2@gmail.com </td>
+                            <td> 7259272593 </td>
+                        </tr>
+
+
+                    </tbody>
+
+                </table>
+
+         <div>       <h1> Table with class as 'table' <h1> </div>
+
+                    <table class="table">
+                 
+                        <thead>
+                            <tr>
+                                <th>  Username </th>
+                                <th>  Email </th>
+                                <th>  Phone No </th>
+                            </tr>
+                        </thead>
+    
+                        <tbody>
+                            <tr>
+                                <td> Aaquib </td>
+                                <td> learning.aaquib@gmail.com </td>
+                                <td> 7259272592 </td>
+                            </tr>
+    
+                            <tr>
+                                <td> Aaquib2 </td>
+                                <td> learning.aaquib2@gmail.com </td>
+                                <td> 7259272593 </td>
+                            </tr>
+    
+    
+                        </tbody>
+    
+                    </table>
+    
+
+                    <div>       <h1> Table with class as 'table table-striped' <h1> </div>
+
+                        <table class="table table-striped">
+                     
+                            <thead>
+                                <tr>
+                                    <th>  Username </th>
+                                    <th>  Email </th>
+                                    <th>  Phone No </th>
+                                </tr>
+                            </thead>
+        
+                            <tbody>
+                                <tr>
+                                    <td> Aaquib </td>
+                                    <td> learning.aaquib@gmail.com </td>
+                                    <td> 7259272592 </td>
+                                </tr>
+        
+                                <tr>
+                                    <td> Aaquib2 </td>
+                                    <td> learning.aaquib2@gmail.com </td>
+                                    <td> 7259272593 </td>
+                                </tr>
+        
+        
+                            </tbody>
+        
+                        </table>
+        
+                        <div>       <h1> Table with class as 'table table-bordered' <h1> </div>
+
+                            <table class="table table-bordered">
+                         
+                                <thead>
+                                    <tr>
+                                        <th>  Username </th>
+                                        <th>  Email </th>
+                                        <th>  Phone No </th>
+                                    </tr>
+                                </thead>
+            
+                                <tbody>
+                                    <tr>
+                                        <td> Aaquib </td>
+                                        <td> learning.aaquib@gmail.com </td>
+                                        <td> 7259272592 </td>
+                                    </tr>
+            
+                                    <tr>
+                                        <td> Aaquib2 </td>
+                                        <td> learning.aaquib2@gmail.com </td>
+                                        <td> 7259272593 </td>
+                                    </tr>
+            
+            
+                                </tbody>
+            
+                            </table>
+            
+        
+                            <!--
+                                table-primary -
+    table-success 
+    table-danger 
+    table-info 
+    table-warning 
+    table-active 
+    table-secondary
+    table-light 
+    table-dark
+
+                            -->
+                            <div>       <h1> Table each row having diffrent color  <h1> </div>
+
+                                <table class="table table-bordered">
+                             
+                                    <thead>
+                                        <tr>
+                                            <th>  Username </th>
+                                            <th>  Email </th>
+                                            <th>  Phone No </th>
+                                        </tr>
+                                    </thead>
+                
+                                    <tbody>
+                                        <tr class="table-primary">
+                                            <td> Aaquib </td>
+                                            <td> learning.aaquib@gmail.com </td>
+                                            <td> 7259272592 </td>
+                                        </tr>
+                
+                                        <tr class="table-success">
+                                            <td> Aaquib2 </td>
+                                            <td> learning.aaquib2@gmail.com </td>
+                                            <td> 7259272593 </td>
+                                        </tr>
+
+                                        <tr class="table-danger">
+                                            <td> Aaquib3 </td>
+                                            <td> learning.aaquib2@gmail.com </td>
+                                            <td> 7259272593 </td>
+                                        </tr>
+                
+
+                                        <tr class="table-info">
+                                            <td> Aaquib4 </td>
+                                            <td> learning.aaquib2@gmail.com </td>
+                                            <td> 7259272593 </td>
+                                        </tr>
+                
+
+                                        <tr class="table-warning">
+                                            <td> Aaquib5 </td>
+                                            <td> learning.aaquib2@gmail.com </td>
+                                            <td> 7259272593 </td>
+                                        </tr>
+                
+
+                                        <tr class="table-active">
+                                            <td> Aaquib6 </td>
+                                            <td> learning.aaquib2@gmail.com </td>
+                                            <td> 7259272593 </td>
+                                        </tr>
+
+                                        <tr class="table-secondary">
+                                            <td> Aaquib table-secondary </td>
+                                            <td> learning.aaquib2@gmail.com </td>
+                                            <td> 7259272593 </td>
+                                        </tr>
+
+                
+                                        <tr class="table-light">
+                                            <td> Aaquib table-light </td>
+                                            <td> learning.aaquib2@gmail.com </td>
+                                            <td> 7259272593 </td>
+                                        </tr>
+
+                                        <tr class="table-dark">
+                                            <td> Aaquib table-dark </td>
+                                            <td> learning.aaquib2@gmail.com </td>
+                                            <td> 7259272593 </td>
+                                        </tr>
+
+
+                
+                                    </tbody>
+                
+                                </table>
+                
+            
+            
+    
+    
+    
+
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</body>
+</html>
